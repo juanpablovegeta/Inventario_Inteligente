@@ -1,0 +1,24 @@
+@startuml
+start
+
+:Solicitar ID;
+
+if (¿ID ya existe?) then (Sí)
+:Mostrar error;
+stop
+else (No)
+endif
+
+:Solicitar nombre;
+:Solicitar categoría;
+:Solicitar precio;
+:Solicitar stock;
+
+:Crear objeto Producto;
+
+:Agregar producto al inventario;
+
+:Mostrar mensaje de éxito;
+
+stop
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+start
+
+if (¿Inventario vacío?) then (Sí)
+
+:Mostrar mensaje;
+
+stop
+
+else (No)
+
+:Recorrer inventario;
+
+if (¿Stock = 0?) then (Sí)
+
+:Mostrar producto;
+
+endif
+
+endif
+
+stop
+@enduml

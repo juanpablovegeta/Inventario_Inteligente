@@ -1,0 +1,25 @@
+@startuml
+start
+
+:Mostrar opciones;
+
+:Elegir criterio;
+
+if (Precio) then (Sí)
+
+:Ordenar por precio;
+
+elseif (Stock)
+
+:Ordenar por stock;
+
+else
+
+:Ordenar por ventas;
+
+endif
+
+:Mostrar productos ordenados;
+
+stop
+@enduml

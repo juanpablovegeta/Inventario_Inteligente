@@ -1,0 +1,27 @@
+@startuml
+start
+
+if (¿Inventario vacío?) then (Sí)
+
+:Mostrar mensaje;
+
+stop
+
+else (No)
+
+:Tomar primer producto;
+
+:Recorrer inventario;
+
+if (¿Tiene más ventas?) then (Sí)
+
+:Actualizar producto más vendido;
+
+endif
+
+:Mostrar producto;
+
+endif
+
+stop
+@enduml
