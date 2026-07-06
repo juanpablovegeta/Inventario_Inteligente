@@ -25,6 +25,7 @@ Este proyecto fue realizado en **Python** utilizando **Programación Orientada a
 * **main.py:** contiene el menú principal del programa.
 * **inventario.py:** contiene las funciones del sistema de inventario.
 * **producto.py:** contiene la clase `Producto`.
+* **datos_productos.xlsx:** archivo Excel con 50 productos de ejemplo (solo referencia)
 
 ## Cómo ejecutar el programa
 
