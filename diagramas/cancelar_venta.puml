@@ -1,0 +1,30 @@
+@startuml
+start
+
+:Solicitar ID;
+
+if (¿Producto existe?) then (Sí)
+
+:Solicitar cantidad;
+
+if (¿Cantidad <= ventas?) then (Sí)
+
+:Restar ventas;
+:Sumar stock;
+
+:Venta cancelada;
+
+else (No)
+
+:Mostrar error;
+
+endif
+
+else (No)
+
+:Producto no encontrado;
+
+endif
+
+stop
+@enduml
